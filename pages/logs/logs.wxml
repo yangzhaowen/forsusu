@@ -1,0 +1,29 @@
+<view class="center">
+  <view wx:if='{{id==0}}'>
+    <view>你说红嘴唇和雪天更配</view>
+    <view>那就送你一只口红</view>
+    <view>每天还我一点</view>
+  </view>
+  <view wx:elif='{{id==1}}'>
+    <view>你爱吃零食</view>
+    <view>却不知道</view>
+    <view>你就是世上最好的美味</view>
+    <view>不仅甜满我的嘴</view>
+    <view>更已填满我的心</view>
+  </view>
+  <view wx:elif='{{id==2}}'>
+    <view>你不知道你眼前的那面镜子</view>
+    <view>其实是我的眼睛</view>
+    <view>因为</view>
+    <view>每天看到你的美</view>
+    <view>在我眼中</view>
+    <view>你就是全世界</view>
+  </view>
+  <view wx:else>
+    <view>你喜欢宅着</view>
+    <view>却为何</view>
+    <view>那么轻易敲开我的心门</view>
+    <view>从此</view>
+    <view>不再让你一个人</view>
+  </view>
+</view>

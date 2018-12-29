@@ -1,0 +1,14 @@
+<view class="center">
+  <view wx:if='{{doId==0}}'>
+    <view>你又不是我</view>
+  </view>
+  <view wx:elif='{{doId==1}}'>
+    <view>在心头窃喜</view>
+  </view>
+  <view wx:elif='{{doId==2}}'>
+    <view>干净讨人欢</view>
+  </view>
+  <view wx:else>
+    <view>啥事都有你</view>
+  </view>
+</view>
